@@ -1,0 +1,87 @@
+.nav {
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: var(--cor-secundária);
+
+    border-bottom: 2px solid var(--cor-terciária);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 1;
+}
+
+.log {
+    position: relative;
+
+
+    color: var(--cor-terciária);
+}
+
+.nav-up {
+    margin-bottom: 1rem;
+}
+
+.nav-down {
+    display: flex;
+    position: relative;
+
+
+
+    width: 100vw;
+}
+
+.search-bar {
+
+
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 2rem;
+    background: var(--cor-de-fundo);
+    border: none;
+    padding: 1.5rem 1.5rem 1.5rem 5rem;
+    width: 88vw;
+
+
+}
+
+.search-bar:focus {
+    color: var(--cor-do-texto);
+    outline: none;
+}
+
+.nav-down button {
+
+    background: none;
+    position: absolute;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: none;
+    left: .5rem;
+    top: .6rem;
+    z-index: 1;
+    transition: .2s ease;
+
+}
+
+svg {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(42%) saturate(732%) hue-rotate(141deg) brightness(96%) contrast(85%);
+
+    position: relative;
+    background: none;
+    padding: .5rem;
+    top: .2rem;
+
+
+
+}
+
+button:hover {
+    background: var(--cor-quartenária);
+}
+
+button:hover svg {
+    filter: invert(1);
+}

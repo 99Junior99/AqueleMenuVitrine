@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.products {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 15rem 1rem 4rem 1rem;
+}
