@@ -1,0 +1,66 @@
+.banner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    height: 40vw;
+    gap: 1rem;
+
+
+}
+
+.content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h2 {
+    text-transform: capitalize;
+    color: var(--cor-terciária);
+    font-size: 4rem;
+}
+
+.banner .text {
+    max-width: 40rem;
+    min-width: 10rem;
+    margin-left: 100px;
+}
+
+.banner span {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor-do-texto);
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.banner .ball1,
+.ball2 {
+
+    padding: 1rem;
+    z-index: 4;
+    top: 35vh;
+    right: 1vw;
+    position: absolute;
+    width: 20vw;
+    height: 40vh;
+    border: dotted .5rem var(--cor-terciária);
+    border-radius: 100%;
+}
+
+.ball2 {
+    top: 1vh;
+    right: 20vw;
+    z-index: 1;
+    background: var(--cor-quartenária);
+    border: none;
+}
+
+
+.banner img {
+    width: 40vw;
+    z-index: 2;
+}
