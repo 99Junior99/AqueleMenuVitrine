@@ -1,0 +1,18 @@
+.cat {
+    display: flex;
+    position: relative;
+
+}
+
+.cat button {
+    padding: 1rem;
+    background-color: var(--cor-quartenária);
+    color: var(--cor-de-fundo);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.cat button:hover {
+
+    background-color: var(--cor-terciária);
+}

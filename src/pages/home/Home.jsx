@@ -4,6 +4,8 @@ import Navbar from '../../components/navbar/Navbar.jsx'
 import Foodcard from '../../components/food-card/Foodcard.jsx'
 import "./Home.css"
 
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 const Home = () => {
     return (
         <div className='home'>

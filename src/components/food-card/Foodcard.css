@@ -48,8 +48,8 @@
 }
 
 .title {
+    text-transform: capitalize;
     color: var(--cor-quartenária);
-
     position: relative;
 }
 

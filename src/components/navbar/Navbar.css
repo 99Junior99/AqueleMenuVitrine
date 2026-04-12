@@ -1,10 +1,9 @@
 .nav {
-    padding: 2rem;
+    padding: 1rem;
     top: 0;
     left: 0;
     position: fixed;
     background: var(--cor-secundária);
-
     border-bottom: 2px solid var(--cor-terciária);
     width: 100vw;
     display: flex;
@@ -22,28 +21,59 @@
 }
 
 .nav-up {
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    width: 90vw;
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
 }
 
 .nav-down {
     display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.sb {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+
+}
+
+.categories {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    max-width: 100vw;
+    gap: 1rem;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
 
 
 
-    width: 100vw;
 }
 
 .search-bar {
-
 
     box-shadow: 1px 1px 10px grey;
     border-radius: 2rem;
     background: var(--cor-de-fundo);
     border: none;
-    padding: 1.5rem 1.5rem 1.5rem 5rem;
-    width: 88vw;
-
+    padding: 1rem 1rem 1rem 4rem;
+    width: 50vw;
 
 }
 
@@ -52,23 +82,29 @@
     outline: none;
 }
 
-.nav-down button {
+.chart-btn {
 
     background: none;
     position: absolute;
-    border-radius: 5rem;
+
     cursor: pointer;
     border: none;
-    left: .5rem;
-    top: .6rem;
+    margin-left: .5rem;
+    top: 1rem;
     z-index: 1;
     transition: .2s ease;
 
 }
 
+.s-btn {
+    position: relative;
+    left: 3.4rem;
+    top: .7rem;
+}
+
 svg {
     filter: brightness(0) saturate(100%) invert(27%) sepia(42%) saturate(732%) hue-rotate(141deg) brightness(96%) contrast(85%);
-
+    border: none;
     position: relative;
     background: none;
     padding: .5rem;
@@ -79,7 +115,8 @@ svg {
 }
 
 button:hover {
-    background: var(--cor-quartenária);
+    background-color: var(--cor-terciária);
+    border-radius: 5rem;
 }
 
 button:hover svg {

@@ -13,7 +13,7 @@ const Foodcard = () => {
             <div className='img-container'><img src={food} alt="" /></div>
 
             <div className="text">
-                <h2 className='title'>asas</h2>
+                <h2 className='title'>hamburger</h2>
                 <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                 <span className='price'>R$: 10,00</span>
 
