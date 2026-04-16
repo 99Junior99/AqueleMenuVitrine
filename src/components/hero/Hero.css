@@ -19,8 +19,17 @@
 
 .banner h2 {
     text-transform: capitalize;
-    color: var(--cor-terciária);
+    color: var(--cor-quartenária);
     font-size: 4rem;
+}
+
+.banner .sub {
+    text-transform: capitalize;
+    color: var(--cor-terciária);
+
+    font-size: 4rem;
+    font-weight: 700;
+
 }
 
 .banner .text {
@@ -29,10 +38,10 @@
     margin-left: 100px;
 }
 
-.banner span {
+.banner .msg {
     font-weight: 500;
-    font-size: 1rem;
-    color: var(--cor-do-texto);
+    font-size: 1.2rem;
+    color: var(--cor-quartenária);
     text-align: start;
     text-transform: capitalize;
 }

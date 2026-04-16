@@ -6,8 +6,8 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
-    margin-left: 100px;
+    gap: 2rem;
+
 }
 
 .card {
@@ -17,14 +17,9 @@
     padding: 1rem;
     width: 14rem;
     height: 20rem;
-    border-radius: 1rem;
     box-shadow: 1px 1px 10px grey;
-
     transition: .2s ease;
     cursor: pointer;
-
-
-
 }
 
 .card:hover {
@@ -42,7 +37,7 @@
     color: var(--cor-terciária);
 }
 
-.card:hover .price {
+.card:hover .sm {
     background: var(--cor-terciária);
     color: var(--cor-de-fundo);
 }
@@ -55,8 +50,9 @@
 .card img {
 
     width: 14rem;
+    height: 8rem;
     max-height: 10rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     position: relative;
     margin: none;
     box-sizing: border-box;
@@ -95,11 +91,20 @@ span {
 
 .price {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 0rem 1rem 0rem 1rem;
-    width: 12rem;
+    width: 7rem;
     color: var(--cor-do-texto);
-    background-color: var(--cor-secundária);
+    background-color: orange;
     clip-path: polygon(0% 0%, 75% 0%, 65% 50%, 75% 100%, 0% 100%);
+}
+
+.sm {
+    position: relative;
+
+    background: var(--cor-secundária);
+    color: var(--cor-do-texto);
+    font-size: 1.2rem;
+    font-weight: 600;
 }

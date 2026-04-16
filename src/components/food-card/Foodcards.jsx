@@ -21,11 +21,7 @@ const Foodcard = () => {
             <div className='card-container'>
                 {/*linha 1*/}
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={carnedsol} alt="" />
                     </div>
@@ -33,16 +29,12 @@ const Foodcard = () => {
                         <h2 className='title'>carne de sol</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
-                </motion.div>
+                </div>
 
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={feijoada} alt="" />
                     </div>
@@ -51,15 +43,12 @@ const Foodcard = () => {
                         <h2 className='title'>feijoada</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}>
+                <div className='card'>
                     <div className='img-container'>
                         <img src={camarao} alt="" />
                     </div>
@@ -68,15 +57,12 @@ const Foodcard = () => {
                         <h2 className='title'>Camarão a moranga</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}>
+                <div className='card'>
                     <div className='img-container'>
                         <img src={cuzcuz} alt="" />
                     </div>
@@ -85,15 +71,12 @@ const Foodcard = () => {
                         <h2 className='title'>cuz cuz</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}>
+                <div className='card'>
                     <div className='img-container'>
                         <img src={tapioca} alt="" />
                     </div>
@@ -102,17 +85,14 @@ const Foodcard = () => {
                         <h2 className='title'>Tapioca recheada</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
                 {/*linha 2*/}
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}>
+                <div className='card'>
                     <div className='img-container'>
                         <img src={pasteis} alt="" />
                     </div>
@@ -121,16 +101,12 @@ const Foodcard = () => {
                         <h2 className='title'>pasteis</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={bolodmilho} alt="" />
                     </div>
@@ -139,16 +115,12 @@ const Foodcard = () => {
                         <h2 className='title'>bolo de milho</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={bolodrolo} alt="" />
                     </div>
@@ -157,16 +129,12 @@ const Foodcard = () => {
                         <h2 className='title'>bolo de rolo</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={assaí} alt="" />
                     </div>
@@ -175,16 +143,12 @@ const Foodcard = () => {
                         <h2 className='title'>assaí com banana</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
-                <motion.div className='card'
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, x: -50 }}
-                    transition={{ duration: 1 }}
-                >
+                <div className='card'>
                     <div className='img-container'>
                         <img src={milkshake} alt="" />
                     </div>
@@ -193,10 +157,10 @@ const Foodcard = () => {
                         <h2 className='title'>milkshake de morango</h2>
                         <span className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, vero?</span>
                         <span className='price'>R$: 10,00</span>
-
+                        <button className='sm'>Saiba mais</button>
                     </div>
 
-                </motion.div>
+                </div>
 
             </div>
         </div>

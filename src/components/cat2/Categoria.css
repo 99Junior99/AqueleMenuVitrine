@@ -1,0 +1,106 @@
+.cat-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+
+    max-width: 90vw;
+
+    justify-self: center;
+
+
+    @media (prefers-reduced-motion: no-preference) {
+        scroll-behavior: smooth;
+    }
+
+    & li {
+        scroll-snap-align: center;
+    }
+
+
+}
+
+.cat-wrapper:active {
+    cursor: grabbing;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.cat2 {
+
+    align-self: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundária);
+    gap: 2rem;
+    width: 10rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    transition: ease .2s;
+    overflow: hidden;
+    cursor: grab;
+    scroll-snap-align: center;
+}
+
+.cat2:hover {
+    transform: scale(1.1);
+
+}
+
+.cat2 img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.l-btn,
+.r-btn {
+
+
+    position: relative;
+    padding: 1rem;
+
+    border-radius: 2rem;
+    margin: 1rem;
+    transition: ease .2s;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.l-btn::after .cat2 {
+    left: 10vw;
+}
+
+.r-btn:active .cat2 {
+    right: 20vw;
+}
+
+.r-btn {
+    position: absolute;
+    right: 1rem;
+}
+
+.l-btn:hover,
+.r-btn:hover {
+    transform: scale(1.1);
+}

@@ -5,5 +5,15 @@
 }
 
 .products {
-    margin: 5rem 0rem 5rem 0rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.titulo {
+    text-transform: capitalize;
+    color: var(--cor-terciária);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: 4rem;
 }
