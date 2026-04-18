@@ -168,3 +168,99 @@ svg {
     top: .2rem;
 
 }
+
+.shopping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: .5rem;
+    padding: 4rem;
+    width: 20rem;
+    height: 25rem;
+    top: 5.6rem;
+    right: 1rem;
+    background-color: var(--cor-de-fundo);
+
+}
+
+
+
+.shopping:after {
+    content: '';
+    position: absolute;
+    top: .1rem;
+    left: 390px;
+    width: 0;
+    height: 0;
+    border: 22px solid transparent;
+    border-bottom-color: var(--cor-de-fundo);
+    border-top: 0;
+    margin-left: -22px;
+    margin-top: -22px;
+}
+
+.buy-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    background: var(--cor-quartenária);
+    color: var(--cor-de-fundo);
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 22rem;
+    margin-top: 1rem;
+}
+
+.buy-btn:hover {
+    background-color: var(--cor-terciária);
+}
+
+.prato .title {
+
+    color: var(--cor-quartenária);
+}
+
+.prato {
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: solid 2px var(--cor-terciária);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.prato .text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.prato .desc {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 5rem;
+    color: var(--cor-do-texto);
+}
+
+.prato img {
+    margin: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+.prato .btns button {
+    background: none;
+    width: 3rem;
+    fill: var(--cor-terciária);
+}
+
+.active svg {
+    fill: #1f5c66;
+    left: 1rem;
+
+}

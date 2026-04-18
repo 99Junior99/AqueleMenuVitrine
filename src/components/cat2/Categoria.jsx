@@ -27,10 +27,12 @@ const Categoria = () => {
                 <div className='cat2'>
                     <img src={hamburger} alt="Second slide" />
                     <div className='text'><h2>Assados</h2>  </div>
-                </div><div className='cat2'>
+                </div>
+                <div className='cat2'>
                     <img src={hamburger} alt="Second slide" />
                     <div className='text'><h2>Assados</h2>  </div>
-                </div><div className='cat2'>
+                </div>
+                <div className='cat2'>
                     <img src={hamburger} alt="Second slide" />
                     <div className='text'><h2>Assados</h2>  </div>
                 </div>
