@@ -1,45 +1,62 @@
 import React from 'react'
 import hamburger from "../../assets/food/vecteezy_hamburger-food-png-generative-ai_27147309.png"
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
+import 'swiper/css';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import "./Categoria.css"
 
 const Categoria = () => {
     return (
+
+
+
         <div className='cat-wrapper'>
-            <button className="l-btn"><svg width={20} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M169.4 297.4C156.9 309.9 156.9 330.2 169.4 342.7L361.4 534.7C373.9 547.2 394.2 547.2 406.7 534.7C419.2 522.2 419.2 501.9 406.7 489.4L237.3 320L406.6 150.6C419.1 138.1 419.1 117.8 406.6 105.3C394.1 92.8 373.8 92.8 361.3 105.3L169.3 297.3z" /></svg></button>
-            <div className='container'>
-                <div className='cat2' >
+            <Swiper
+                // install Swiper modules
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={32}
+                slidesPerView={4}
+                navigation
+                pagination={{ clickable: true }}
+                scrollable
+
+
+            >
+
+                <SwiperSlide> <div className='cat2' >
+                    <img src={hamburger} alt="First slide" />
+                    <div className='text'><h2>lanches</h2>  </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className='cat2' >
                     <img src={hamburger} alt="First slide" />
                     <div className='text'><h2>Carnes</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-                <div className='cat2'>
-                    <img src={hamburger} alt="Second slide" />
-                    <div className='text'><h2>Assados</h2>  </div>
-                </div>
-            </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className='cat2' >
+                    <img src={hamburger} alt="First slide" />
+                    <div className='text'><h2>Carnes</h2>  </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className='cat2' >
+                    <img src={hamburger} alt="First slide" />
+                    <div className='text'><h2>Carnes</h2>  </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className='cat2' >
+                    <img src={hamburger} alt="First slide" />
+                    <div className='text'><h2>Carnes</h2>  </div>
+                </div></SwiperSlide>
+                <SwiperSlide> <div className='cat2' >
+                    <img src={hamburger} alt="First slide" />
+                    <div className='text'><h2>Carnes</h2>  </div>
+                </div></SwiperSlide>
 
-            <button className="r-btn"><svg width={20} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z" /></svg></button>
-        </div>
+            </Swiper>
+        </div >
     )
 }
 

@@ -36,7 +36,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-
+    width: 50vw;
 
 }
 
@@ -54,9 +54,6 @@
     flex-direction: column;
     background-color: var(--cor-secundária);
     color: var(--cor-terciária);
-    gap: 2rem;
-    width: 10rem;
-    margin-left: 2rem;
     padding: 1rem;
     transition: ease .2s;
     overflow: hidden;
@@ -67,6 +64,7 @@
 .cat2 h2 {
     font-size: 1.2rem;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .cat2:hover {
@@ -109,4 +107,23 @@
 .l-btn:hover,
 .r-btn:hover {
     transform: scale(1.1);
+}
+
+/* Styling both navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: var(--cor-de-fundo);
+    /* Background color */
+    width: 2rem;
+    /* Box width */
+    height: 2rem;
+    box-shadow: 1px 1px 5px grey;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    padding: 1rem;
+    /* Box height */
+    border-radius: 2rem;
+
+    /* Arrow color */
 }
