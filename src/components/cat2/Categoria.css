@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     overflow: auto;
-
     max-width: 90vw;
 
     justify-self: center;
@@ -124,6 +123,6 @@
     padding: 1rem;
     /* Box height */
     border-radius: 2rem;
-
     /* Arrow color */
+
 }
