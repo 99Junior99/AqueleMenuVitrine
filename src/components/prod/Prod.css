@@ -1,0 +1,150 @@
+.prod {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    text-align: center;
+
+    position: relative;
+
+}
+
+.left {
+    width: 50vw;
+
+}
+
+.right {
+    width: 50vw;
+
+
+}
+
+.card-2 {
+    gap: 2rem;
+    height: 62vh;
+    width: 25vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    transition: ease .2s;
+    overflow: hidden;
+    cursor: grab;
+    scroll-snap-align: center;
+    background: none;
+    box-shadow: none;
+}
+
+.card-2:hover {
+
+    transform: scale(1);
+}
+
+.hmsg h2 {
+    color: var(--cor-principal);
+}
+
+.hmsg .sub {
+    color: var(--cor-terciária);
+}
+
+.hmsg .ms {
+    color: var(--cor-principal);
+}
+
+.hero h2 {
+    font-size: 4rem;
+    color: var(--cor-quartenária);
+
+}
+
+.hmsg {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    gap: 1rem;
+}
+
+.hero .sub {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--cor-terciária);
+}
+
+.hero span {
+    color: var(--cor-quartenária);
+    font-size: 2rem;
+    font-weight: 500;
+
+
+}
+
+.hero .ms {
+    width: 40vw;
+}
+
+.card-2 .i {
+
+    width: 12rem;
+    box-sizing: border-box;
+    z-index: 0;
+
+}
+
+/* Styling both navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+
+    /* Background color */
+    width: 2rem;
+    /* Box width */
+
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    padding: 1rem;
+    /* Box height */
+    height: 5rem;
+    /* Arrow color */
+    --swiper-navigation-color: var(--cor-terciária);
+
+}
+
+/* Inactive Bullets */
+.swiper-pagination-bullet {
+
+    padding: .2rem;
+    background: #ccc;
+    opacity: 1;
+    /* Default is often 0.2 */
+    bottom: 10vh;
+
+    gap: 2rem;
+    position: relative;
+    transition: .2s ease;
+
+}
+
+/* Active Bullet */
+.swiper-pagination-bullet-active {
+    background: var(--cor-terciária) !important;
+    /* Forces color change */
+    transform: scale(1.2);
+    /* Optional: make the active one wider */
+    border-radius: 5px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

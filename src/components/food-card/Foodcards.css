@@ -102,7 +102,9 @@ span {
 
 .sm {
     position: relative;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--cor-secundária);
     color: var(--cor-do-texto);
     font-size: 1.2rem;

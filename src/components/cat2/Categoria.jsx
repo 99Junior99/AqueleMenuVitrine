@@ -38,26 +38,37 @@ const Categoria = () => {
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide> <div className='cat2' >
-                    <img src={hamburger} alt="First slide" />
-                    <div className='text'><h2>Carnes</h2>  </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className='cat2' >
-                    <img src={hamburger} alt="First slide" />
-                    <div className='text'><h2>Carnes</h2>  </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className='cat2' >
-                    <img src={hamburger} alt="First slide" />
-                    <div className='text'><h2>Carnes</h2>  </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className='cat2' >
-                    <img src={hamburger} alt="First slide" />
-                    <div className='text'><h2>Carnes</h2>  </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className='cat2' >
-                    <img src={hamburger} alt="First slide" />
-                    <div className='text'><h2>Carnes</h2>  </div>
-                </div></SwiperSlide>
+                <SwiperSlide>
+                    <div className='cat2' >
+                        <img src={hamburger} alt="First slide" />
+                        <div className='text'><h2>Carnes</h2>  </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='cat2' >
+                        <img src={hamburger} alt="First slide" />
+                        <div className='text'><h2>Carnes</h2>  </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='cat2' >
+                        <img src={hamburger} alt="First slide" />
+                        <div className='text'><h2>Carnes</h2>  </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='cat2' >
+                        <img src={hamburger} alt="First slide" />
+                        <div className='text'><h2>Carnes</h2>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='cat2' >
+                        <img src={hamburger} alt="First slide" />
+                        <div className='text'><h2>Carnes</h2>  </div>
+                    </div>
+                </SwiperSlide>
 
             </Swiper>
         </div >
