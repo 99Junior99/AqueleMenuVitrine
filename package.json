@@ -1,14 +1,14 @@
 {
+  "homepage": "https://99Junior99.github.io/AqueleMenuVitrine",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "name": "starter-project",
-    "homepage": "https://tomerpacific.github.io/starter-project/",
     "version": "0.1.0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
