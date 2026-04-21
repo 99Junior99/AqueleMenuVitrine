@@ -90,9 +90,7 @@
     box-shadow: 1px 1px 10px grey;
 }
 
-.l-btn::after .cat2 {
-    left: 10vw;
-}
+
 
 .r-btn:active .cat2 {
     right: 20vw;
