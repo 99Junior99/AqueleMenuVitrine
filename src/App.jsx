@@ -9,7 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // As rotas
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/AqueleMenuVitrine",
     element: <Home />,
 
   },
