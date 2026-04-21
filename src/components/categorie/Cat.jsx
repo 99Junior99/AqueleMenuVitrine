@@ -4,7 +4,11 @@ const Cat = () => {
     return (
 
         <div className="cat">
-            <button>fast food</button>
+            <button>lanches</button>
+            <button>carnes</button>
+            <button>assados</button>
+            <button>bebidas</button>
+            <button>sobremesas</button>
         </div>
 
     )

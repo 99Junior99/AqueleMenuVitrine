@@ -1,7 +1,7 @@
 .cat {
     display: flex;
     position: relative;
-
+    gap: 1rem;
 }
 
 .cat button {

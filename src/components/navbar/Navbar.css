@@ -47,7 +47,6 @@ a {
 
 }
 
-
 .nav-up {
     display: flex;
     justify-content: space-between;
@@ -87,7 +86,7 @@ button {
     gap: 1rem;
     width: 80vw;
     margin: auto;
-    justify-content: space-between;
+    justify-content: start;
 
 
 
@@ -199,6 +198,10 @@ svg {
 
 }
 
+.shopping::-webkit-scrollbar {
+    display: none;
+}
+
 .shopping {
     display: flex;
     flex-direction: column;
@@ -208,10 +211,13 @@ svg {
     box-shadow: 1px 1px 5px grey;
     border-radius: .5rem;
     padding: 4rem;
-    width: 20rem;
+    width: 25rem;
     height: 25rem;
+    overflow: auto;
+
     top: 5.6rem;
     right: 1rem;
+
     background-color: var(--cor-de-fundo);
 
 }
@@ -228,6 +234,7 @@ svg {
     border-top: 0;
     margin-left: -22px;
     margin-top: -22px;
+
 }
 
 .buy-btn {
@@ -239,7 +246,9 @@ svg {
     border-radius: .5rem;
     padding: 1rem;
     width: 22rem;
-    margin-top: 1rem;
+    top: 33rem;
+    position: fixed;
+
 }
 
 .buy-btn:hover {
@@ -251,13 +260,26 @@ svg {
     color: var(--cor-quartenária);
 }
 
+.pratos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 5rem;
+    position: relative;
+
+}
+
 .prato {
     display: flex;
     flex-direction: row;
-
+    position: relative;
     border-bottom: solid 2px var(--cor-terciária);
+
     padding: 1rem;
     gap: 1rem;
+
+
 }
 
 .prato .text {
@@ -278,13 +300,14 @@ svg {
     margin: 0;
     width: 10rem;
     height: 10rem;
-    border-radius: .5rem;
+
 }
 
 .prato .btns button {
     background: none;
     width: 3rem;
     fill: var(--cor-terciária);
+
 }
 
 .active svg {

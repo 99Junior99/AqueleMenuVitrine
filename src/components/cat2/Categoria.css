@@ -72,7 +72,7 @@
 }
 
 .cat2 img {
-    width: 10rem;
+
     height: 10rem;
     object-fit: cover;
 }
@@ -141,7 +141,7 @@
     padding: .1rem;
     background: #ccc;
     opacity: 1;
-
+    top: .5rem;
     gap: 2rem;
     transition: .2s ease;
 
